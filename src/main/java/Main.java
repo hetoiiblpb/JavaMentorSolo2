@@ -9,6 +9,7 @@ public class Main {
 
 
     public static void main(String[] args) throws DBException, SQLException {   //Метод только для теста
+        System.out.println("Fuck YOU ALLL!!!!!");
         UserService userService = UserService.getInstance();
         DBHelper.getInstance();
         DBHelper.getProperties();
